@@ -1,0 +1,10 @@
+:root.light__theme {
+    --main-color: #FFFFFF;
+    --main-image: url(../assets/svg/theme/carbon_sun_hover.svg);
+    --text-color: #000;
+    --title-color: #000;
+  }
+ 
+
+
+  

@@ -1,0 +1,372 @@
+/*----- Media ----- */
+
+@media (max-width:1439px) {
+    .main__portfolio {
+        min-height: 2050px;
+    }
+}
+
+@media (max-width:964px) {
+    .main__portfolio {
+        min-height: 3870px;
+    }
+
+    .portfolio__menu {
+        width: 445px;
+        height: 115px;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5px;
+        margin: 0 auto;
+    }
+
+    .prices__list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 5px;
+        justify-items: center;
+        /* margin: 0 auto; */
+        /* justify-content: center; */
+    }
+
+
+}
+
+
+@media (max-width:768px) {
+
+    .header__theme {
+        margin-right: 29px;
+        margin-left: 11px;
+    }
+
+    .header__container {
+
+        height: -90px;
+        background-image: url(../assets/img/hero-content768.png);
+    }
+
+    .hero__container {
+        max-height: 500px;
+        background-image: url(../assets/img/hero-content768.png);
+
+    }
+
+    .links {
+        padding-left: 39.5px;
+    }
+
+    .select__lang {
+        margin-left: auto;
+        padding-right: 19.8px;
+    }
+
+    .streak {
+        padding-right: 8px;
+    }
+
+    .en {
+        padding-right: 2px;
+    }
+
+    /*---- Section Hero ----*/
+    .hero__content {
+        padding: 78px 0 111.2px 39px;
+    }
+
+    .hero__content {
+        max-width: 390px;
+        max-height: 263px;
+    }
+
+    .title {
+        font-size: 32px;
+        line-height: 64px;
+        font-weight: normal;
+    }
+
+    .hero__content .text {
+        line-height: 24px;
+        margin-top: 21px;
+        margin-bottom: 58px;
+    }
+
+
+    /*-=---- Main Skills ---- */
+    .main__skills {
+        min-height: 729px;
+        height: 100%;
+        /* padding-bottom: 20px; */
+
+    }
+
+    .section-title {
+        padding-top: 80px;
+    }
+
+    .container h2 {
+        font-size: 32px;
+    }
+
+    .section-title {
+        max-width: 364px;
+        margin: 0 auto;
+
+    }
+
+    .section-title.subject {
+        width: 156px;
+    }
+
+    .skills__box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: auto;
+        column-count: 2;
+
+        padding-top: 45px;
+        /* padding-left: 19px; */
+        padding-right: 31px;
+
+    }
+
+    .skills__description {
+        /* max-width: 307px; */
+
+        margin-bottom: 22px;
+
+        /* padding-right: 29px;*/
+        margin-left: 31px;
+    }
+
+    .skills__description h3 {
+        padding-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .skills__description p {
+        padding-left: 5px;
+        line-height: 22px;
+        margin: 0 auto;
+    }
+
+
+    /* -- Section Portfolio  -- */
+
+    .subject h2 {
+        width: 166px;
+    }
+
+    .portfolio__container {
+        min-height: 3870px;
+    }
+
+    .control {
+        padding-top: 50px;
+    }
+
+    .portfolio__menu {
+        width: 445px;
+        height: 115px;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5px;
+        margin: 0 auto;
+
+    }
+
+    .menu__seasons.menu__btn {
+        width: 220px;
+        height: 55px;
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    .portfolio__images {
+        margin-top: 60px;
+    }
+
+
+
+    /* ------Section Video ----- */
+
+    .video__container {
+        max-height: 628px;
+        padding: 0;
+    }
+
+    .about__video {
+        margin-top: 50px;
+    }
+
+    .video__item {
+        max-width: 768px;
+        min-height: 418px;
+        height: 100%;
+        -o-object-fi: cover;
+        object-fit: cover;
+        margin: 0 auto;
+        padding: 0;
+        display: block;
+        width: 100%;
+    }
+
+    .play__buttons {
+        max-width: 65px;
+        max-height: 65px;
+        background-image: url(../assets/svg/Play_hover.svg);
+        background-size: contain;
+    }
+
+
+    /* ------Section Price ----- */
+
+    .prices__list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 54.5px;
+        margin: 0 auto;
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+
+    .prices__standard,
+    .prices__premium,
+    .prices__gold {
+        max-width: 420px;
+    }
+
+
+    /* ------- Section Contact me ----- */
+
+    .contact__container {
+        /* max-width: 490px; */
+        height: 600px;
+
+    }
+
+    .contacts__title h2 {
+        text-align: center;
+        margin-bottom: 33px;
+    }
+
+    .contacts__title {
+        padding-top: 51px;
+    }
+
+    .contacts__form {
+        text-align: center;
+
+    }
+
+
+    /*------ Footer ------*/
+    .footer__container {
+        text-align: center;
+        padding-top: 0;
+
+    }
+
+    .footer__box {
+        display: inline-block;
+        justify-content: center;
+        padding-top: 3px;
+        line-height: 35px;
+    }
+
+    .footer__info {
+        padding-top: 11px;
+        padding-left: 23px;
+        margin-bottom: 0;
+    }
+
+    .footer__rsschool a {
+        margin-left: 6px;
+    }
+
+    .footer__contacts {
+        padding-left: 17px;
+        margin-top: 29px;
+    }
+
+    .footer__messenger {
+        display: flex;
+        flex-direction: row;
+
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer__info,
+    .footer__rsschool,
+    .footer__messenger {
+        line-height: 30px;
+    }
+
+    .pinterest {
+        padding-right: 5px;
+    }
+}
+
+
+@media (max-width:756px) {
+    .main__skills {
+        min-height: 1093px;
+        height: 100%;
+        padding-bottom: 30px;
+
+    }
+}
+
+@media (max-width:620px) {
+    .header__content {
+        max-width: 676px;
+        width: 100%;
+    }
+
+}
+
+@media (max-width:480px) {
+
+
+    .hero__containe {
+        max-width: 390px;
+        max-height: 263px;
+
+        height: 100%;
+        -o-object-fi: cover;
+        object-fit: cover;
+
+        display: block;
+        width: 100%;
+    }
+
+    .header__nav {
+        position: absolute;
+        top: 0;
+        right: -100%;
+        max-width: 400px;
+        height: 1024px;
+        z-index: 10;
+
+        transition: all 0.4s ease 0.3s;
+
+        background: rgb(0, 0, 0);
+    }
+
+    .contacts__title h2,
+    .contacts__form input,
+    .form__textarea {
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .contacts__title h2,
+    .contacts__form {
+        text-align: left;
+    }
+
+}

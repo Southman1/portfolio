@@ -1,0 +1,8 @@
+:root.dark__theme {
+    --main-color: #000;
+    --main-image: url(../assets/svg/theme/Vector_Moon_hover.svg);
+    --text-color: #fff;
+    --title-color: #BDAE82;
+
+  }
+
